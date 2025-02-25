@@ -5,8 +5,8 @@ function WeatherApp() {
     const [weatherData, setWeatherData] = useState(null);
     const [error, setError] = useState('');
 
-    const apiKey = 'AIzaSyCtd-XM4qnh_dt2jj3KszwO6aJhQIgwoJU';
-    const weatherApiKey = '52e6756aa50d4c58bf7201050242710';
+    const apiKey = '';
+    const weatherApiKey = '';
 
     const handleInputChange = (event) => {
         setCityEntry(event.target.value);
